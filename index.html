@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>M&amp;S Digital</title>
+<meta name="description" content="M&S Digital makes apps for Filipino families, including El Niño Ph Heat Stroke Tracker.">
+<link rel="icon" href="/assets/favicon.png">
+<style>
+  :root { --text: #1b1f24; --muted: #5b6470; --accent: #e8590c; --bg: #ffffff; --card: #f6f7f9; --line: #e5e8ec; }
+  @media (prefers-color-scheme: dark) {
+    :root { --text: #eef1f5; --muted: #a7b0bb; --accent: #ff8a3d; --bg: #0d1420; --card: #162031; --line: #263041; }
+    .logo { filter: invert(1); }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 56px; }
+  .logo { display: block; height: 96px; margin: 0 auto 8px; }
+  h1 { text-align: center; margin: 0 0 4px; font-size: 26px; }
+  .tagline { text-align: center; color: var(--muted); margin: 0 0 32px; }
+  .app { display: flex; gap: 16px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 16px; }
+  .app img { width: 84px; height: 84px; border-radius: 20px; flex: none; }
+  .app h2 { margin: 0; font-size: 19px; }
+  .app p { margin: 4px 0 8px; color: var(--muted); font-size: 15px; }
+  a { color: var(--accent); }
+  .links a { margin-right: 14px; font-weight: 600; }
+  footer { margin-top: 32px; text-align: center; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="/assets/mands-logo.png" alt="M&amp;S Digital logo">
+  <h1>M&amp;S Digital</h1>
+  <p class="tagline">Apps for Filipino families</p>
+
+  <section class="app">
+    <img src="/assets/heat-stroke-tracker-icon.png" alt="El Niño Ph Heat Stroke Tracker icon">
+    <div>
+      <h2>El Niño Ph Heat Stroke Tracker</h2>
+      <p>Heat index for every Philippine city and municipality, morning heat alerts, family heat warnings, and heat stroke first aid.</p>
+      <div class="links">
+        <a href="/heat-stroke-tracker/privacy/">Privacy policy</a>
+        <a href="mailto:mandsdigitalph@gmail.com">Support</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>Contact: <a href="mailto:mandsdigitalph@gmail.com">mandsdigitalph@gmail.com</a></footer>
+</main>
+</body>
+</html>
